@@ -1,4 +1,5 @@
 function findSpareChairs(rooms, need) {
+    if (need === 0) return 1;
     let chairsTaken = [];
     let totalChairsNeeded = need;
 
