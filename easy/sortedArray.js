@@ -10,5 +10,5 @@ var deleteDuplicates = function(head) {
     }
     return head;
 };
-let head = [1,1,2];
+let head = [1,2,1];
 console.log(deleteDuplicates(head));
